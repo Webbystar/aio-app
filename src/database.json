@@ -1,0 +1,97 @@
+{
+  "companies":[
+
+    {"id":1,"companieName":"EQUIMEN Co Ltd","companieLogo":"/app-img/logo-icon/equimen-logo.png","companieHotlines":[
+      {"id":1,"name":"call","mobile":"(+255)-715 015 759","icon":"fab fa-mobile"},
+      {"id":2,"name":"whatsapp","mobile":"https://wa.link/47fxo9","icon":"fab fa-whatsapp"},
+      {"id":3,"name":"telegram","mobile":"(+255)-715 015 759","icon":"fab fa-telegram"},
+      {"id":4,"name":"instagram","mobile":"(+255)-715 015 759","icon":"fab fa-instagram"}]
+    },
+
+    {"id":2,"companieName":"UBATZ Co Ltd","companieLogo":"/app-img/logo-icon/adminlte.png","companieHotlines":[]}
+  ],
+
+  "navigations":[
+
+
+    {"id":2,"endpoint":"/#", "endpointName":"Home","authenticate":false},
+    {"id":3,"endpoint":"/#about", "endpointName":"About Us","authenticate":false},
+    {"id":4,"endpoint":"/#products_services", "endpointName":"Products and Services","authenticate":false},
+    {"id":5,"endpoint":"/#contact", "endpointName":"Contact Us","authenticate":false},
+    {"id":6,"endpoint":"/lockscreen", "endpointName":"Lock Screen","authenticate":true},
+    {"id":7,"endpoint":"/signup", "endpointName":"Signup","authenticate":false},
+    {"id":8,"endpoint":"/login", "endpointName":"Signin","authenticate":false},
+    {"id":9,"endpoint":"/logout", "endpointName":"Signout","authenticate":true}
+  ],
+
+  "homeSlides":[
+
+    {"id":1,"companie_id":1,"src":"/app-img/img-slides/photo1.png", "alt" : "First Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo1.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":2,"companie_id":1,"src":"/app-img/img-slides/photo2.png", "alt" : "Second Slide","captionTitle":"Sample Caption : Second Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo2.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":3,"companie_id":1,"src":"/app-img/img-slides/photo3.jpg", "alt" : "Third Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo3.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":4,"companie_id":1,"src":"/app-img/img-slides/photo4.jpg", "alt" : "Fourth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo4.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":5,"companie_id":1,"src":"/app-img/img-slides/photo5.png", "alt" : "Fifth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo5.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":6,"companie_id":1,"src":"/app-img/img-slides/photo6.webp", "alt" : "Sixth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo6.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":6,"companie_id":1,"src":"/app-img/img-slides/photo7.png", "alt" : "Seventh Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo7.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":7,"companie_id":1,"src":"/app-img/img-slides/photo8.png", "alt" : "Eighth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo8.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":8,"companie_id":1,"src":"/app-img/img-slides/photo9.png", "alt" : "Nineth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo9.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."}
+  ],
+
+  "aboutContents":[
+    {
+      "id":1,
+      "companie_id":1,
+
+      "aboutDetails":[
+        {"name":"About Us",
+        "contents":"<p><br/><strong>EQUIMEN Co Ltd</strong> is a company founded in Dar Es Salaam, Tanzania East Africa in 2022. By the time of enactment, the company investment was based on three disciplinary sectors namely <em><strong>Information and Communication Technology (ICT)</strong></em>, <strong><em>Public Auctioning</em></strong> and the Real Estate consultation and service provisioning. <br/><br/> <strong>1. Our Vision:</strong>  <br/> To <strong><em>Create a Digital Centre of Comunity</em></strong> with the sole purpose of <strong><em>Engagements in Business atmosphere</em></strong>  while <strong><em>emphasizing Equity</em></strong> in modality of various processess and processing in Business operations and <strong><em>Capitalizing Resources</em></strong> within this Community. <br/><br/> <strong>2. Our Mission:</strong> <br/> <strong><em>Explore various business sectors and the applied professional discipline that are embodied in an aspect of Manual or paper based processing of internal processes in production or manufacturing and foster the automation and digitization of such apsects.</em></strong> <br/><br/>  <strong>3. Objectives:</strong> <br/> ....... <br/><br/> <strong>4. Goals:</strong> <br/> ....... </br> </p>",
+        "companie_sectors":[
+          {"id":1,"sector_name":"ICT","sector_content":"A"},
+          {"id":2,"sector_name":"AUCTIONEER","sector_content":"B"},
+          {"id":3,"sector_name":"REAL ESTATE","sector_content":"C"}
+        ]}
+      ],
+
+      "insights":[{
+        "name_entrie":"Whats new!",
+        "insight_list":[
+          {"id":1,"title":"EQUIMEN Online Cabin","description":"New online Cabin for file access any where,  at any time","img":"/app-img/logo-icon/equimen-logo.png","costs":"$20/Month"},
+          {"id":2,"title":"AdminLTE Version 5.0","description":"New bootstrap themes and icons","img":"/app-img/logo-icon/adminlte.png","costs":"$50"},
+          {"id":3,"title":"UBA Tanzania","description":"UBA Tanzania has joined EQUIMENT Payment gateway services","img":"/app-img/logo-icon/uba.png","costs":""},
+          {"id":3,"title":"EQUIMENT Open World Wide","description":"As a result of the demand for the products offered the company has open up more centres world wide","img":"/app-img/preloader/equemen-preloader.gif","costs":""}
+        ]
+      }]
+    }
+  ],
+
+  "productServiceContents":[
+    {
+      "id":1,
+      "companie_id":1,
+
+      "productDetails":[
+        {"name":"Products and Services",
+        "contents":"",
+        "sector_products":[
+
+          {"id":1,"sector_name":"ICT","sector_product":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada lacus ullamcorper dui molestie, sit amet congue quam finibus. Etiam ultricies nunc non magna feugiat commodo. Etiam odio magna, mollis auctor felis vitae, ullamcorper ornare ligula. Proin pellentesque tincidunt nisi, vitae ullamcorper felis aliquam id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin id orci eu lectus blandit suscipit. Phasellus porta, ante et varius ornare, sem enim sollicitudin eros, at commodo leo est vitae lacus. Etiam ut porta sem. Proin porttitor porta nisl, id tempor risus rhoncus quis. In in quam a nibh cursus pulvinar non consequat neque. Mauris lacus elit, condimentum ac condimentum at, semper vitae lectus. Cras lacinia erat eget sapien porta consectetur.","product_release":[
+            {"id":1,"caption":"Sample Product One","ribon_text":"CABINET","img_src":"/app-img/img-products/cabinet.jfif"},
+            {"id":2,"caption":"Sample Product Two","ribon_text":"INVENTORY","img_src":"/app-img/img-products/inventory.png"},
+            {"id":3,"caption":"Sample Product Three","ribon_text":"PAYROLL","img_src":"/app-img/img-products/payroll.jfif"},
+            {"id":4,"caption":"Sample Product Four","ribon_text":"ACTIVATIONS","img_src":"/app-img/img-products/activations.png"}
+            ]
+          },
+
+          {"id":2,"sector_name":"AUCTIONEER","sector_product":"Mauris tincidunt mi at erat gravida, eget tristique urna bibendum. Mauris pharetra purus ut ligula tempor, et vulputate metus facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sollicitudin, nisi a luctus interdum, nisl ligula placerat mi, quis posuere purus ligula eu lectus. Donec nunc tellus, elementum sit amet ultricies at, posuere nec nunc. Nunc euismod pellentesque diam.","product_release":[]},
+
+          {"id":3,"sector_name":"REAL ESTATE","sector_product":"Pellentesque vestibulum commodo nibh nec blandit. Maecenas neque magna, iaculis tempus turpis ac, ornare sodales tellus. Mauris eget blandit dolor. Quisque tincidunt venenatis vulputate. Morbi euismod molestie tristique. Vestibulum consectetur dolor a vestibulum pharetra. Donec interdum placerat urna nec pharetra. Etiam eget dapibus orci, eget aliquet urna. Nunc at consequat diam. Nunc et felis ut nisl commodo dignissim. In hac habitasse platea dictumst. Praesent imperdiet accumsan ex sit amet facilisis.","product_release":[]}
+        ]}
+      ]
+    }
+  ],
+
+  "dump":[
+      {"navigations":{"id":1,"endpoint":"/webapp", "endpointName":"Webapp","authenticate":false}}
+    ]
+}
+
