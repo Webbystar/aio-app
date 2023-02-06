@@ -23,7 +23,7 @@ export default class AboutComponent extends Component {
     };
   }
 
-  componentDidMount() {
+  componentDidMount = () => {
 
     this.setState({
       insight_name: this.insights.name_entrie,
@@ -63,25 +63,23 @@ export default class AboutComponent extends Component {
     let tabs = this.AboutContentSummarizer();
 
     return (
-      <>
-        <ul className="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
-          {tabs.map((item, index) => (
-            <li className="nav-item" key={index}>
-              <a
-                className={(index === 0 ? "nav-link active" : "nav-link")}
-                id={item.replace(/\s/g, '') + "-tab-section"}
-                data-toggle="pill"
-                href={"#" + item.replace(/\s/g, '')}
-                role="tab"
-                aria-controls={item.replace(/\s/g, '') + "-Content"}
-                aria-selected="true"
-              >
-                {item}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </>
+      <ul className="nav nav-tabs" id="custom-tabs-four-tab" role="tablist">
+        {tabs.map((item, index) => (
+          <li className="nav-item" key={index}>
+            <a
+              className={(index === 0 ? "nav-link active" : "nav-link")}
+              id={item.replace(/\s/g, '') + "-tab-section"}
+              data-toggle="pill"
+              href={"#" + item.replace(/\s/g, '')}
+              role="tab"
+              aria-controls={item.replace(/\s/g, '') + "-Content"}
+              aria-selected="true"
+            >
+              {item}
+            </a>
+          </li>
+        ))}
+      </ul>
     );
 
   }
@@ -118,7 +116,7 @@ export default class AboutComponent extends Component {
         <ul className="products-list product-list-in-card pl-2 pr-2">
           {this.state.insight_list.map(
             (item, index) => (
-              <li className="item">
+              <li className="item" key={index}>
 
                 <div className="product-img">
                   <img src={item.img} alt="Product" className="img-size-50" />
@@ -141,7 +139,7 @@ export default class AboutComponent extends Component {
     );
   }
 
-  render() {
+  render = () => {
 
     return (
       <>
