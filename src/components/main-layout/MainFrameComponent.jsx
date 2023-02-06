@@ -1,19 +1,19 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import HeaderSection from '../header-section/Header';
 import RouteContentSection from "../../routes";
 import FooterSection from '../footer-section/Footer';
 
-export default class MainUIComponent extends Component{
+export default class MainUIComponent extends Component {
 
-  render(){
+  render() {
 
-    return(
+    return (
       /* START : MAIN BODY CONTENTS WRAPPER */
       <>
 
         {/* START : PRE-LOADER LOGO */}
         <section className="preloader flex-column justify-content-center align-items-center" id="logo-section">
-          <img className="animation__shake" src="/app-img/preloader/equemen-preloader.gif" alt="" id="animation_logo" />
+          <img className="animation__shake" src="./app-img/preloader/equemen-preloader.gif" alt="" id="animation_logo" />
         </section>
         {/* END : PRE-LOADER LOGO */}
 
@@ -22,7 +22,7 @@ export default class MainUIComponent extends Component{
         {/* END : TOP HEADER / NAVIGATION CONTAINER MENU */}
 
         {/* START : PAGE CONTENT SECTION */}
-          <RouteContentSection />
+        <RouteContentSection />
         {/* END : PAGE CONTENT SECTION */}
 
         {/* START : PAGE FOOTER BAR */}
