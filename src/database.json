@@ -17,6 +17,7 @@
     {"id":2,"endpoint":"/#", "endpointName":"Home","authenticate":false},
     {"id":3,"endpoint":"/#about", "endpointName":"About Us","authenticate":false},
     {"id":4,"endpoint":"/#products_services", "endpointName":"Products and Services","authenticate":false},
+    {"id":4,"endpoint":"/#our_team", "endpointName":"Our Team","authenticate":false},
     {"id":5,"endpoint":"/#contact", "endpointName":"Contact Us","authenticate":false},
     {"id":6,"endpoint":"/lockscreen", "endpointName":"Lock Screen","authenticate":true},
     {"id":7,"endpoint":"/signup", "endpointName":"Signup","authenticate":false},
@@ -87,6 +88,28 @@
 
           {"id":3,"sector_name":"REAL ESTATE","sector_product":"To be provided in brief and some listing of the same if any","product_release":[]}
         ]}
+      ]
+    }
+  ],
+
+  "ourTeamContents":[
+    {
+      "id":1,
+      "comapanie_id":1,
+
+      "teamMembers":[
+
+        {"id":1, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and CEO","memberAvatar":"./app-img/avatar/kasim.jpg","memberContacts":[
+          {"memberPhone":"(+255) 657 227 553"},{"memberEmail":"kassyson@gmail.com"},{"memberExperience":12}
+          ]},
+
+        {"id":2, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and COO","memberAvatar":"./app-img/avatar/hamisi.jpg","memberContacts":[
+          {"memberPhone":"(+255) 685 342 505"},{"memberEmail":"hamypius@gmail.com"},{"memberExperience":12}
+          ]},
+
+        {"id":2, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberAvatar":"./app-img/avatar/webbystar.png","memberContacts":[
+          {"memberPhone":"(+255) 715 015 759"},{"memberEmail":"webbystarz@gmail.com"},{"memberExperience":12}
+          ]}
       ]
     }
   ],

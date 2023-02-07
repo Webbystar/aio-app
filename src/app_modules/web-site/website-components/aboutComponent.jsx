@@ -123,7 +123,7 @@ export default class AboutComponent extends Component {
                 </div>
 
                 <div className="product-info">
-                  <Link to="javascript:void(0)" className="product-title">
+                  <Link to="#" className="product-title">
                     {item.title}
                     <span className="badge badge-success float-right">{item.costs}</span>
                   </Link>
@@ -176,7 +176,7 @@ export default class AboutComponent extends Component {
             </div>
 
             <div className="card-footer text-center">
-              <Link to="javascript:void(0)" className="uppercase">
+              <Link to="#" className="uppercase">
                 More Insights
               </Link>
             </div>
