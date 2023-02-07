@@ -1,14 +1,14 @@
 {
   "companies":[
 
-    {"id":1,"companieName":"EQUIMEN Co Ltd","companieLogo":"./app-img/logo-icon/equimen-logo.png","companieHotlines":[
+    {"id":1,"companieName":"EQUIMEN Co Ltd","companiecommonName":"EQUIMEN","companieLogo":"equimen-logo.png","companieHotlines":[
       {"id":1,"name":"call","mobile":"(+255)-715 015 759","icon":"fab fa-mobile"},
       {"id":2,"name":"whatsapp","mobile":"https://wa.link/47fxo9","icon":"fab fa-whatsapp"},
       {"id":3,"name":"telegram","mobile":"(+255)-715 015 759","icon":"fab fa-telegram"},
       {"id":4,"name":"instagram","mobile":"(+255)-715 015 759","icon":"fab fa-instagram"}]
     },
 
-    {"id":2,"companieName":"UBATZ Co Ltd","companieLogo":"./app-img/logo-icon/adminlte.png","companieHotlines":[]}
+    {"id":2,"companieName":"UBATZ Co Ltd","companiecommonName":"UBA","companieLogo":"./app-img/logo-icon/adminlte.png","companieHotlines":[]}
   ],
 
   "navigations":[

@@ -1,41 +1,42 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 import SubroutineController from "../../../componentControllers/SubroutineController";
-//import SUb from "../../../app_assets/app_img/logo_icon/";
 
-export default class LogoComponent extends Component{
+export default class LogoComponent extends Component {
 
-  constructor(){
+  constructor() {
 
     super();
 
     this.Subroutine = new SubroutineController();
 
     this.state = {
-      companieLogo : null,
-      companieName : null,
-      companieHotlines : []      
+      companieLogo: "equimen-logo.png",
+      companieName: null,
+      companiecommonName: "EQUIMEN",
+      companieHotlines: []
     };
   }
-  
+
   componentDidMount = () => {
 
     let companie = this.Subroutine.personalizedCompanieBrand();
 
     this.setState({
-      companieLogo : companie.companieLogo,
-      companieName : companie.companieName,
-      companieHotlines : companie.companieHotlines
+      companieLogo: companie.companieLogo,
+      companieName: companie.companieName,
+      companiecommonName: companie.companiecommonName,
+      companieHotlines: companie.companieHotlines
     });
   }
 
-  renderPersonalizedCompanieBrand = () =>{
-    return(
+  renderPersonalizedCompanieBrand = () => {
+    return (
       <ul className="navbar-nav">
-        { 
+        {
           /** ONLY EXECUTES IF THE HOTLINES ARE PROVIDED **/
           this.state.companieHotlines.length > 0 &&
-          
+
           <li className="nav-item dropdown">
             <span to="/" className="nav-link dropdown-toggle" id="dropdownSubMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Our Hotline &nbsp;&nbsp;<i className="fa fa-mobile" aria-hidden="true" />
@@ -43,7 +44,7 @@ export default class LogoComponent extends Component{
 
             <ul aria-labelledby="dropdownSubMenu1" className="dropdown-menu border-0 shadow">
               <li className="nav-item">
-                {this.state.companieHotlines.map( (hotline, index ) => ( hotline.name === "call" ? <span className="nav-link" key={index} >{hotline.mobile}</span>: <Link to={{ pathname:hotline.mobile }} target="_blank" className="nav-link" key={index}>{hotline.name}<i className={ hotline.icon + " float-sm-right"} aria-hidden="true" /></Link> ) )}
+                {this.state.companieHotlines.map((hotline, index) => (hotline.name === "call" ? <span className="nav-link" key={index} >{hotline.mobile}</span> : <Link to={{ pathname: hotline.mobile }} target="_blank" className="nav-link" key={index}>{hotline.name}<i className={hotline.icon + " float-sm-right"} aria-hidden="true" /></Link>))}
               </li>
             </ul>
 
@@ -61,13 +62,13 @@ export default class LogoComponent extends Component{
     );
   }
 
-  render(){
+  render() {
 
-    return(
+    return (
       <>
 
         <Link to="/" className="navbar-brand">
-          <img className="brand-image" src={this.state.companieLogo} alt="Company Logo" />
+          <img className="brand-image" src={require(`../../../companies/${this.state.companiecommonName}/logo_icon/${this.state.companieLogo}`)} alt="Company Logo" />
           <span>&nbsp;</span>
           <span className="brand-text font-weight-light">{this.state.companieName}</span>
         </Link>
