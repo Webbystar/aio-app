@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import IndexController from "../../../componentControllers/websiteControllers/indexWebsiteController";
 
+//import avatar from "../../../companies/EQUIMEN/avatar/";
+
 export default class OurTeamComponent extends Component {
 
   constructor() {
@@ -64,45 +66,7 @@ export default class OurTeamComponent extends Component {
               <div className="row">&emsp;</div>
 
               <div className="card-footer p-0">
-                <ul className="nav flex-column">
-
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      {member.memberName} {/*<span className={"float-right"}>31</span>*/}
-                    </span>
-                  </li>
-
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      {member.memberDesignation}
-                    </span>
-                  </li>
-
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      {member.memberProfession}
-                    </span>
-                  </li>
-
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      {teamCompanie.companieName}
-                    </span>
-                  </li>
-
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      {teamCompanie.address}
-                    </span>
-                  </li>
-
-                  <li className="nav-item">
-                    <span className="nav-link">
-                      {teamCompanie.location}
-                    </span>
-                  </li>
-
-                </ul>
+                {this.renderTeamMemberBusinessCard(member, teamCompanie)}
               </div>
 
               <div className={"row widget-user-header bg-" + (index % 2 == 0 ? "info" : "success")} style={{ border: 1, borderStyle: 'solid', borderRadius: '0px 0px 10px 10px' }}>
@@ -132,6 +96,52 @@ export default class OurTeamComponent extends Component {
         ))}
       </>
     );
+  }
+
+  renderTeamMemberBusinessCard = (member, companie) => {
+
+    return (
+      <ul className="nav flex-column">
+
+        <li className="nav-item">
+          <span className="nav-link">
+            {member.memberName} {/*<span className={"float-right"}>31</span>*/}
+          </span>
+        </li>
+
+        <li className="nav-item">
+          <span className="nav-link">
+            {member.memberDesignation}
+          </span>
+        </li>
+
+        <li className="nav-item">
+          <span className="nav-link">
+            {member.memberProfession}
+          </span>
+        </li>
+
+        <li className="nav-item">
+          <span className="nav-link">
+            {companie.companieName}
+          </span>
+        </li>
+
+        <li className="nav-item">
+          <span className="nav-link">
+            {companie.address}
+          </span>
+        </li>
+
+        <li className="nav-item">
+          <span className="nav-link">
+            {companie.location}
+          </span>
+        </li>
+
+      </ul>
+    )
+
   }
 
   renderTeamSocials = (socials) => {
