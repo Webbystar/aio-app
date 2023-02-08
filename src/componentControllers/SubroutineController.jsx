@@ -1,8 +1,8 @@
 import database from "../database.json";
 
-export default class subroutineController{
+export default class subroutineController {
 
-  constructor(){
+  constructor() {
 
     this.PostSecurities = false;
 
@@ -11,66 +11,76 @@ export default class subroutineController{
     this.CompanieName = false;
 
     this.database = database;
-    
+
     console.debug("Subroutine Class Initialized");
   }
 
-  removeArrayDuplicates = ( arrai ) => {
+  removeArrayDuplicates = (arrai) => {
 
-    return [...new Set( arrai )];
+    return [...new Set(arrai)];
   }
 
-  personalizedCompanieBrand = () =>{
+  arraiSearchMatchingCriteria = (arrai, element_value, search_value) => {
+
+    element_value = element_value !== null ? JSON.parse('{"element":"' + element_value + '"}') : element_value;
+
+    let element = element_value === null ? '' : Object.values(element_value)[0];
+    let id = element_value === null ? '' : Object.keys(element_value)[0];
+
+    return arrai.find(element => element.id == search_value);
+  }
+
+  personalizedCompanieBrand = () => {
 
     let brandedCompanies = [];
 
-    switch( this.PostSecurities ){
+    switch (this.PostSecurities) {
 
       case true:
-        
+
         brandedCompanies = database.companies[1];
-      break;
+        break;
 
       case false:
-        
+
         brandedCompanies = database.companies[0];
-      break;
+        break;
 
       default:
 
         brandedCompanies = database.companies[0];
-      break;
+        break;
     }
-    
+
     this.CompanieName = brandedCompanies.companieName;
 
     return brandedCompanies;
   }
 
-  applicationNavigations = () =>{
+  applicationNavigations = () => {
 
     let navigations = [];
 
-    database.navigations.forEach( (navigation) => {
+    database.navigations.forEach((navigation) => {
 
-      switch( this.PostSecurities ){
+      switch (this.PostSecurities) {
 
         case true:
-          
-          navigations.push( navigation );
-        break;
+
+          navigations.push(navigation);
+          break;
 
         case false:
-          if( !navigation.authenticate ){
-          
-            
-            navigations.push( navigation );
+          if (!navigation.authenticate) {
+
+
+            navigations.push(navigation);
           }
-        break;
+          break;
 
         default:
           navigations = [];
-        break;
+          break;
       }
     });
 

@@ -5,7 +5,8 @@
       {"id":1,"name":"call","mobile":"(+255)-715 015 759","icon":"fab fa-mobile"},
       {"id":2,"name":"whatsapp","mobile":"https://wa.link/47fxo9","icon":"fab fa-whatsapp"},
       {"id":3,"name":"telegram","mobile":"(+255)-715 015 759","icon":"fab fa-telegram"},
-      {"id":4,"name":"instagram","mobile":"(+255)-715 015 759","icon":"fab fa-instagram"}]
+      {"id":4,"name":"instagram","mobile":"(+255)-715 015 759","icon":"fab fa-instagram"}],
+    "address":"Magomeni ST. Plot No. 5 Block No. 9","location":"Kinondoni, Dar Es Salaam - Tanzania, United Republic of"
     },
 
     {"id":2,"companieName":"UBATZ Co Ltd","companiecommonName":"UBA","companieLogo":"./app-img/logo-icon/adminlte.png","companieHotlines":[]}
@@ -79,7 +80,7 @@
             {"id":1,"caption":"Sample Product One","ribon_text":"CABINET","img_src":"./app-img/img-products/cabinet.jfif"},
             {"id":2,"caption":"Sample Product Two","ribon_text":"INVENTORY","img_src":"./app-img/img-products/inventory.png"},
             {"id":3,"caption":"Sample Product Three","ribon_text":"PAYROLL","img_src":"./app-img/img-products/payroll.jfif"},
-            {"id":4,"caption":"Sample Product Four","ribon_text":"ACTIVATIONS","img_src":"./app-img/img-products/activations.png"},
+            {"id":4,"caption":"Sample Product Four a.k.a Know Your Customer Prefferences (KYCP)","ribon_text":"ACTIVATIONS","img_src":"./app-img/img-products/activations.png"},
             {"id":5,"caption":"Exotic Real Estates","ribon_text":"REAL ESTATES","img_src":"./app-img/img-products/real-estates.webp"}
             ]
           },
@@ -99,17 +100,28 @@
 
       "teamMembers":[
 
-        {"id":1, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and CEO","memberAvatar":"./app-img/avatar/kasim.jpg","memberContacts":[
-          {"memberPhone":"(+255) 657 227 553"},{"memberEmail":"kassyson@gmail.com"},{"memberExperience":12}
-          ]},
 
-        {"id":2, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and COO","memberAvatar":"./app-img/avatar/hamisi.jpg","memberContacts":[
-          {"memberPhone":"(+255) 685 342 505"},{"memberEmail":"hamypius@gmail.com"},{"memberExperience":12}
-          ]},
 
-        {"id":2, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberAvatar":"./app-img/avatar/webbystar.png","memberContacts":[
-          {"memberPhone":"(+255) 715 015 759"},{"memberEmail":"webbystarz@gmail.com"},{"memberExperience":12}
-          ]}
+        {"id":1, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and COE","memberProfession":"Professionalize in Business Administration","memberAvatar":"./app-img/avatar/hamisi.jpg","memberContacts":[
+          {"contactName":"Mobile Phone","usedContact":"(+255) 685 342 505"},{"contactName":"Email Address","usedContact":"hamypius@gmail.com"}
+          ],
+        "socialMedia":[
+          {"socilaName":"Facebook","socialUrl":"https://www.facebook.com/hamy.pius"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/hamis-pius-b53241135"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/hamy_concepts?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255685342505"}
+        ]},
+
+        {"id":2, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and COO","memberProfession":"Professionalize in Accounts and Finance","memberAvatar":"./app-img/avatar/kasim.jpg","memberContacts":[
+          {"contactName":"Mobile Phone","usedContact":"(+255) 657 227 553"},{"contactName":"Email Address","usedContact":"kassyson@gmail.com"}
+          ],
+        "socialMedia":[
+          {"socilaName":"Facebook","socialUrl":"#"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/kassim-pius-kipengele-b2170420b"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/kassk_?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255657227553"}
+        ]},
+
+        {"id":2, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberProfession":"Professionalize in Information Technology","memberAvatar":"./app-img/avatar/webbystar.jpg","memberContacts":[
+          {"contactName":"Mobile Phone","usedContact":"(+255) 715 015 759"},{"contactName":"Email Address","usedContact":"webbystarz@gmail.com"}
+          ],
+        "socialMedia":[
+          {"socilaName":"Facebook","socialUrl":"https://www.facebook.com/webbystar.ngwayo"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/webbystar-ngwayo-94119116a"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/kamandakinakilishi?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255715015759"}
+        ]}
       ]
     }
   ],
