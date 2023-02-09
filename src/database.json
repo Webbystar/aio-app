@@ -102,21 +102,21 @@
 
 
 
-        {"id":1, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and COE","memberProfession":"Professionalize in Business Administration","memberAvatar":"./app-img/avatar/hamisi.jpg","memberContacts":[
+        {"id":1, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and COE","memberProfession":"Professionalize in Business Administration","memberAvatar":"./companies/EQUIMEN/avatar/hamisi.jpg","memberContacts":[
           {"contactName":"Mobile Phone","usedContact":"(+255) 685 342 505"},{"contactName":"Email Address","usedContact":"hamypius@gmail.com"}
           ],
         "socialMedia":[
           {"socilaName":"Facebook","socialUrl":"https://www.facebook.com/hamy.pius"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/hamis-pius-b53241135"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/hamy_concepts?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255685342505"}
         ]},
 
-        {"id":2, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and COO","memberProfession":"Professionalize in Accounts and Finance","memberAvatar":"./app-img/avatar/kasim.jpg","memberContacts":[
+        {"id":2, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and COO","memberProfession":"Professionalize in Accounts and Finance","memberAvatar":"./companies/EQUIMEN/avatar/kasim.jpg","memberContacts":[
           {"contactName":"Mobile Phone","usedContact":"(+255) 657 227 553"},{"contactName":"Email Address","usedContact":"kassyson@gmail.com"}
           ],
         "socialMedia":[
           {"socilaName":"Facebook","socialUrl":"#"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/kassim-pius-kipengele-b2170420b"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/kassk_?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255657227553"}
         ]},
 
-        {"id":2, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberProfession":"Professionalize in Information Technology","memberAvatar":"./app-img/avatar/webbystar.jpg","memberContacts":[
+        {"id":2, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberProfession":"Professionalize in Information Technology","memberAvatar":"./companies/EQUIMEN/avatar/webbystar.jpg","memberContacts":[
           {"contactName":"Mobile Phone","usedContact":"(+255) 715 015 759"},{"contactName":"Email Address","usedContact":"webbystarz@gmail.com"}
           ],
         "socialMedia":[

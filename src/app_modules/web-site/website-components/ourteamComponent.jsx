@@ -3,8 +3,6 @@ import { Link } from "react-router-dom";
 
 import IndexController from "../../../componentControllers/websiteControllers/indexWebsiteController";
 
-//import avatar from "../../../companies/EQUIMEN/avatar/";
-
 export default class OurTeamComponent extends Component {
 
   constructor() {
@@ -48,11 +46,7 @@ export default class OurTeamComponent extends Component {
                 <h5 className="widget-user-desc">{member.memberDesignation}</h5>
               </div>
               <div className="widget-user-image">
-                <img
-                  className="img-circle elevation-2"
-                  src={member.memberAvatar}
-                  alt={member.memberName + " Avatar"}
-                />
+                <img className="img-circle elevation-2" src={member.memberAvatar} alt={member.memberName + " Avatar"} />
               </div>
             </div>
 
