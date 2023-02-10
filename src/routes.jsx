@@ -1,17 +1,17 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import { Routes, Route } from 'react-router-dom';
-import WebsiteIndex from "./app_modules/web-site/index";
-import WebappIndex from "./app_modules/web-app/index";
+import WebsiteIndex from "./app/web-site/index";
+import WebappIndex from "./app/web-app/index";
 
-export default class UIRoutes extends Component{
+export default class UIRoutes extends Component {
 
-  render(){
+  render() {
     let PostSecurities = false;
-    return(
+    return (
       <>
-      <Routes>
-        <Route exact path={ PostSecurities ? "/webapp": "/"} element={ PostSecurities ? <WebappIndex /> : <WebsiteIndex /> } />
-      </Routes>
+        <Routes>
+          <Route exact path={PostSecurities ? "/webapp" : "/"} element={PostSecurities ? <WebappIndex /> : <WebsiteIndex />} />
+        </Routes>
       </>
     );
   }
