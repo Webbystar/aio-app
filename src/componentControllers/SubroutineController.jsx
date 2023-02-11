@@ -84,6 +84,6 @@ export default class subroutineController {
       }
     });
 
-    return navigations;
+    return { "navigations": navigations, "companieAsBaseuri": this.personalizedCompanieBrand().companiecommonName.toLowerCase() };
   }
 }

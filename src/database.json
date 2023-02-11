@@ -15,15 +15,15 @@
   "navigations":[
 
 
-    {"id":2,"endpoint":"/#", "endpointName":"Home","authenticate":false},
-    {"id":3,"endpoint":"/#about", "endpointName":"About Us","authenticate":false},
-    {"id":4,"endpoint":"/#products_services", "endpointName":"Products and Services","authenticate":false},
-    {"id":4,"endpoint":"/#our_team", "endpointName":"Our Team","authenticate":false},
-    {"id":5,"endpoint":"/#contact", "endpointName":"Contact Us","authenticate":false},
-    {"id":6,"endpoint":"/lockscreen", "endpointName":"Lock Screen","authenticate":true},
-    {"id":7,"endpoint":"/signup", "endpointName":"Signup","authenticate":false},
-    {"id":8,"endpoint":"/login", "endpointName":"Signin","authenticate":false},
-    {"id":9,"endpoint":"/logout", "endpointName":"Signout","authenticate":true}
+    {"id":2,"endpoint":"", "endpointName":"Home","authenticate":false},
+    {"id":3,"endpoint":"about", "endpointName":"About Us","authenticate":false},
+    {"id":4,"endpoint":"products_services", "endpointName":"Products and Services","authenticate":false},
+    {"id":4,"endpoint":"our_team", "endpointName":"Our Team","authenticate":false},
+    {"id":5,"endpoint":"contact", "endpointName":"Contact Us","authenticate":false},
+    {"id":6,"endpoint":"lockscreen", "endpointName":"Lock Screen","authenticate":true},
+    {"id":7,"endpoint":"signup", "endpointName":"Signup","authenticate":false},
+    {"id":8,"endpoint":"login", "endpointName":"Signin","authenticate":false},
+    {"id":9,"endpoint":"logout", "endpointName":"Signout","authenticate":true}
   ],
 
   "homeSlides":[
