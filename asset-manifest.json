@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/equimen/static/css/main.7aea967f.css",
+    "main.js": "/equimen/static/js/main.867c1c28.js",
+    "static/js/787.182c5a26.chunk.js": "/equimen/static/js/787.182c5a26.chunk.js",
+    "index.html": "/equimen/index.html",
+    "main.7aea967f.css.map": "/equimen/static/css/main.7aea967f.css.map",
+    "main.867c1c28.js.map": "/equimen/static/js/main.867c1c28.js.map",
+    "787.182c5a26.chunk.js.map": "/equimen/static/js/787.182c5a26.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7aea967f.css",
+    "static/js/main.867c1c28.js"
+  ]
+}
