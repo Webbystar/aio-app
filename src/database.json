@@ -28,15 +28,15 @@
 
   "homeSlides":[
 
-    {"id":1,"companie_id":1,"src":"../app-img/img-slides/photo1.png", "alt" : "First Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo1.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":2,"companie_id":1,"src":"../app-img/img-slides/photo2.png", "alt" : "Second Slide","captionTitle":"Sample Caption : Second Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo2.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":3,"companie_id":1,"src":"../app-img/img-slides/photo3.jpg", "alt" : "Third Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo3.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":4,"companie_id":1,"src":"../app-img/img-slides/photo4.jpg", "alt" : "Fourth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo4.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":5,"companie_id":1,"src":"../app-img/img-slides/photo5.png", "alt" : "Fifth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo5.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":6,"companie_id":1,"src":"../app-img/img-slides/photo6.webp", "alt" : "Sixth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo6.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":6,"companie_id":1,"src":"../app-img/img-slides/photo7.png", "alt" : "Seventh Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo7.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":7,"companie_id":1,"src":"../app-img/img-slides/photo8.png", "alt" : "Eighth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo8.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
-    {"id":8,"companie_id":1,"src":"../app-img/img-slides/photo9.png", "alt" : "Nineth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo9.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."}
+    {"id":1,"companie_id":1,"src":"./app-img/img-slides/photo1.png", "alt" : "First Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo1.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":2,"companie_id":1,"src":"./app-img/img-slides/photo2.png", "alt" : "Second Slide","captionTitle":"Sample Caption : Second Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo2.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":3,"companie_id":1,"src":"./app-img/img-slides/photo3.jpg", "alt" : "Third Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo3.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":4,"companie_id":1,"src":"./app-img/img-slides/photo4.jpg", "alt" : "Fourth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo4.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":5,"companie_id":1,"src":"./app-img/img-slides/photo5.png", "alt" : "Fifth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo5.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":6,"companie_id":1,"src":"./app-img/img-slides/photo6.webp", "alt" : "Sixth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo6.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":6,"companie_id":1,"src":"./app-img/img-slides/photo7.png", "alt" : "Seventh Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo7.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":7,"companie_id":1,"src":"./app-img/img-slides/photo8.png", "alt" : "Eighth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo8.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."},
+    {"id":8,"companie_id":1,"src":"./app-img/img-slides/photo9.png", "alt" : "Nineth Slide","captionTitle":"Sample Caption : First Slide","captionText":"Sample image description and product mentoring : /app-img/img-slides/photo9.png","captionReadmore":"Can show the time stamp of updated period or navigate to read more."}
   ],
 
   "aboutContents":[
@@ -57,10 +57,10 @@
       "insights":[{
         "name_entrie":"Whats new!",
         "insight_list":[
-          {"id":1,"title":"EQUIMEN Online Cabin","description":"New online Cabin for file access any where,  at any time","img":"../app-img/logo-icon/equimen-logo.png","costs":"$20/Month"},
-          {"id":2,"title":"AdminLTE Version 5.0","description":"New bootstrap themes and icons","img":"../app-img/logo-icon/adminlte.png","costs":"$50"},
-          {"id":3,"title":"UBA Tanzania","description":"UBA Tanzania has joined EQUIMENT Payment gateway services","img":"../app-img/logo-icon/uba.png","costs":""},
-          {"id":3,"title":"EQUIMENT Open World Wide","description":"As a result of the demand for the products offered the company has open up more centres world wide","img":"../app-img/preloader/equemen-preloader.gif","costs":""}
+          {"id":1,"title":"EQUIMEN Online Cabin","description":"New online Cabin for file access any where,  at any time","img":"./app-img/logo-icon/equimen-logo.png","costs":"$20/Month"},
+          {"id":2,"title":"AdminLTE Version 5.0","description":"New bootstrap themes and icons","img":"./app-img/logo-icon/adminlte.png","costs":"$50"},
+          {"id":3,"title":"UBA Tanzania","description":"UBA Tanzania has joined EQUIMENT Payment gateway services","img":"./app-img/logo-icon/uba.png","costs":""},
+          {"id":3,"title":"EQUIMENT Open World Wide","description":"As a result of the demand for the products offered the company has open up more centres world wide","img":"./app-img/preloader/equemen-preloader.gif","costs":""}
         ]
       }]
     }
@@ -77,11 +77,11 @@
         "sector_products":[
 
           {"id":1,"sector_name":"ICT","sector_product":"<p>Feel free to browse our  Products and/or Services brought to you by Equimen ICT, these are available now in stock for your company to excel with the cutting edge world of technology that we are living:</p>","product_release":[
-            {"id":1,"caption":"Sample Product One","ribon_text":"CABINET","img_src":"../app-img/img-products/cabinet.jfif"},
-            {"id":2,"caption":"Sample Product Two","ribon_text":"INVENTORY","img_src":"../app-img/img-products/inventory.png"},
-            {"id":3,"caption":"Sample Product Three","ribon_text":"PAYROLL","img_src":"../app-img/img-products/payroll.jfif"},
-            {"id":4,"caption":"Sample Product Four a.k.a Know Your Customer Prefferences (KYCP)","ribon_text":"ACTIVATIONS","img_src":"../app-img/img-products/activations.png"},
-            {"id":5,"caption":"Exotic Real Estates","ribon_text":"REAL ESTATES","img_src":"../app-img/img-products/real-estates.webp"}
+            {"id":1,"caption":"Sample Product One","ribon_text":"CABINET","img_src":"./app-img/img-products/cabinet.jfif"},
+            {"id":2,"caption":"Sample Product Two","ribon_text":"INVENTORY","img_src":"./app-img/img-products/inventory.png"},
+            {"id":3,"caption":"Sample Product Three","ribon_text":"PAYROLL","img_src":"./app-img/img-products/payroll.jfif"},
+            {"id":4,"caption":"Sample Product Four a.k.a Know Your Customer Prefferences (KYCP)","ribon_text":"ACTIVATIONS","img_src":"./app-img/img-products/activations.png"},
+            {"id":5,"caption":"Exotic Real Estates","ribon_text":"REAL ESTATES","img_src":"./app-img/img-products/real-estates.webp"}
             ]
           },
 
@@ -102,21 +102,21 @@
 
 
 
-        {"id":1, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and CEO","memberProfession":"Professionalize in Business Administration","memberAvatar":"../companies/EQUIMEN/avatar/hamisi.jpg","memberContacts":[
+        {"id":1, "memberName":"Hamis Pius Kipengele","memberDesignation":"Founder and CEO","memberProfession":"Professionalize in Business Administration","memberAvatar":"./companies/EQUIMEN/avatar/hamisi.jpg","memberContacts":[
           {"contactName":"Mobile Phone","usedContact":"(+255) 685 342 505"},{"contactName":"Email Address","usedContact":"hamypius@gmail.com"}
           ],
         "socialMedia":[
           {"socilaName":"Facebook","socialUrl":"https://www.facebook.com/hamy.pius"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/hamis-pius-b53241135"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/hamy_concepts?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255685342505"}
         ]},
 
-        {"id":2, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and COO","memberProfession":"Professionalize in Accounts and Finance","memberAvatar":"../companies/EQUIMEN/avatar/kasim.jpg","memberContacts":[
+        {"id":2, "memberName":"Kasim Pius Kipengele","memberDesignation":"Founder and COO","memberProfession":"Professionalize in Accounts and Finance","memberAvatar":"./companies/EQUIMEN/avatar/kasim.jpg","memberContacts":[
           {"contactName":"Mobile Phone","usedContact":"(+255) 657 227 553"},{"contactName":"Email Address","usedContact":"kassyson@gmail.com"}
           ],
         "socialMedia":[
           {"socilaName":"Facebook","socialUrl":"#"},{"socilaName":"LinkedIn","socialUrl":"https://www.linkedin.com/in/kassim-pius-kipengele-b2170420b"},{"socilaName":"Instagram","socialUrl":"https://instagram.com/kassk_?igshid=YmMyMTA2M2Y="},{"socilaName":"Whatsapp","socialUrl":"https://wa.me/255657227553"}
         ]},
 
-        {"id":3, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberProfession":"Professionalize in Information Technology","memberAvatar":"../companies/EQUIMEN/avatar/webbystar.jpg","memberContacts":[
+        {"id":3, "memberName":"Webbystar Ngwayo Mnzava","memberDesignation":"Founder and CTO","memberProfession":"Professionalize in Information Technology","memberAvatar":"./companies/EQUIMEN/avatar/webbystar.jpg","memberContacts":[
           {"contactName":"Mobile Phone","usedContact":"(+255) 715 015 759"},{"contactName":"Email Address","usedContact":"webbystarz@gmail.com"}
           ],
         "socialMedia":[

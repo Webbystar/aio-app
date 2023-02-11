@@ -1,6 +1,7 @@
 {
-  "name": "aio-web-app",
+  "name": "admin-app",
   "version": "0.1.0",
+  "homepage":"http://webbystar.github.io/equimen",
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "github:splidejs/react-splide",
@@ -17,10 +18,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3004 && react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts --openssl-legacy-provider eject"
+    "start": "set PORT=3001 && react-scripts start",
+    "predeploy ":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
