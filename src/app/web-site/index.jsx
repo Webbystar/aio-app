@@ -25,7 +25,7 @@ export default class WebSiteIndex extends Component {
 
           <div className="container-fluid">
 
-            <section className="row" id="equimen">
+            <section className="row" id={companieName}>
               <HomeComponent />
             </section>
 
