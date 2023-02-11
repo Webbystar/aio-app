@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import { HashLink as LinkPageSection } from "react-router-hash-link";
 import SubroutineController from "../../../componentControllers/SubroutineController";
 
 export default class LogoComponent extends Component {
@@ -67,11 +68,11 @@ export default class LogoComponent extends Component {
     return (
       <>
 
-        <Link to="/" className="navbar-brand">
+        <LinkPageSection smooth to={this.state.companiecommonName.toLowerCase() + "/#"} className="navbar-brand">
           <img className="brand-image" src={require(`../../../companies/${this.state.companiecommonName}/logo_icon/${this.state.companieLogo}`)} alt="Company Logo" />
           <span>&nbsp;</span>
           <span className="brand-text font-weight-light">{this.state.companieName}</span>
-        </Link>
+        </LinkPageSection>
 
         <button className="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

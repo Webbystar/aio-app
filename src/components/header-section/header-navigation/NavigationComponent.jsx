@@ -11,12 +11,12 @@ export default class HeaderNavigationComponent extends Component {
 
     this.Subroutine = new SubroutineController();
 
-    this.state = { navs: [], companieAsBaseuri: "" };
+    this.state = { navs: [], companieNameBaseUri: "" };
   }
 
   componentDidMount = () => {
 
-    this.setState({ navs: this.Subroutine.applicationNavigations().navigations, companieAsBaseuri: this.Subroutine.applicationNavigations().companieAsBaseuri });
+    this.setState({ navs: this.Subroutine.applicationNavigations().navigations, companieNameBaseUri: this.Subroutine.applicationNavigations().companieAsBaseuri });
   }
 
   render = () => {
@@ -49,8 +49,8 @@ export default class HeaderNavigationComponent extends Component {
           {/* END : SEARCH CONTROL */}
 
           {/* START : PAGE NAVIGATION */}
-          <ul className="nav nav-tabs" id="custom-tabs-four-tab" role="tablist" data-baseuri={this.state.companieAsBaseuri}>
-            {this.state.navs.map((item, index) => (<li className="nav-item card-info card-outline-tabs card-outline" key={index}><LinkPageSection smooth to={'/#' + this.state.companieAsBaseuri + (item.endpoint && "-") + item.endpoint} className={(index === 0 ? "nav-link active" : "nav-link")} data-toggle="pill">{item.endpointName}</LinkPageSection> </li>))}
+          <ul className="nav nav-tabs" id="custom-tabs-four-tab" role="tablist" data-baseuri={this.state.companieNameBaseUri}>
+            {this.state.navs.map((item, index) => (<li className="nav-item card-info card-outline-tabs card-outline" key={index}><LinkPageSection smooth to={this.state.companieNameBaseUri + item.endpoint} className={(index === 0 ? "nav-link active" : "nav-link")} data-toggle="pill">{item.endpointName}</LinkPageSection> </li>))}
             {/*{this.state.navs.map( ( item, index ) => ( <li  key={index}><LinkPageSection smooth to={item.endpoint} className="nav-link">{item.endpointName}</LinkPageSection> </li> ) )}*/}
           </ul>
           {/* START : PAGE NAVIGATION */}

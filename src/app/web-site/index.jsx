@@ -25,19 +25,19 @@ export default class WebSiteIndex extends Component {
 
           <div className="container-fluid">
 
-            <section className="row" id={companieName}>
+            <section className="row" id={"#"}>
               <HomeComponent />
             </section>
 
-            <section className="row" id={companieName + "-about"} style={{ paddingRight: "50px", paddingTop: "30px", paddingLeft: "50px", backgroundColor: "#fff" }}>
+            <section className="row" id={"about"} style={{ paddingRight: "50px", paddingTop: "30px", paddingLeft: "50px", backgroundColor: "#fff" }}>
               <AboutComponent />
             </section>
 
-            <section className="row" id={companieName + "-products_services"} style={{ paddingRight: "50px", paddingTop: "30px", paddingLeft: "50px", backgroundColor: "#fff" }}>
+            <section className="row" id={"products_services"} style={{ paddingRight: "50px", paddingTop: "30px", paddingLeft: "50px", backgroundColor: "#fff" }}>
               <ProductServiceComponent />
             </section>
 
-            <section id={companieName + "-our_team"} style={{ paddingRight: "50px", paddingTop: "30px", paddingLeft: "50px", backgroundColor: "#fff" }}>
+            <section id={"our_team"} style={{ paddingRight: "50px", paddingTop: "30px", paddingLeft: "50px", backgroundColor: "#fff" }}>
               <OurTeamComponent />
             </section>
 
