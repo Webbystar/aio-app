@@ -1,7 +1,7 @@
 {
   "name": "admin-app",
   "version": "0.1.0",
-  "homepage":"http://webbystar.github.io/equimen",
+  "homepage": "http://webbystar.github.io/aio-app",
   "private": true,
   "dependencies": {
     "@splidejs/react-splide": "github:splidejs/react-splide",
@@ -9,6 +9,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "dompurify": "^2.4.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.1",
@@ -19,8 +20,8 @@
   },
   "scripts": {
     "start": "set PORT=3001 && react-scripts start",
-    "predeploy ":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy ": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
