@@ -16,7 +16,7 @@ export default class UIRoutes extends Component {
     return (
       <>
         <Routes>
-          <Route exact path={PostSecurities ? "/webapp" : "/aio-app/" + companieName} element={PostSecurities ? <WebappIndex /> : <WebsiteIndex />} />
+          <Route exact path={PostSecurities ? "/webapp" : "/" + companieName} element={PostSecurities ? <WebappIndex /> : <WebsiteIndex />} />
         </Routes>
       </>
     );
