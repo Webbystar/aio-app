@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/aio-app/static/css/main.7aea967f.css",
-    "main.js": "/aio-app/static/js/main.9d2cf2c1.js",
+    "main.js": "/aio-app/static/js/main.7e24dc4f.js",
     "static/js/787.182c5a26.chunk.js": "/aio-app/static/js/787.182c5a26.chunk.js",
     "static/media/photo4.jpg": "/aio-app/static/media/photo4.0ebed46e0ba55a0f2203.jpg",
     "static/media/photo9.png": "/aio-app/static/media/photo9.d8a843249644fba38290.png",
@@ -21,11 +21,11 @@
     "static/media/cabinet.jfif": "/aio-app/static/media/cabinet.c8787454c6da65e8d6f5.jfif",
     "index.html": "/aio-app/index.html",
     "main.7aea967f.css.map": "/aio-app/static/css/main.7aea967f.css.map",
-    "main.9d2cf2c1.js.map": "/aio-app/static/js/main.9d2cf2c1.js.map",
+    "main.7e24dc4f.js.map": "/aio-app/static/js/main.7e24dc4f.js.map",
     "787.182c5a26.chunk.js.map": "/aio-app/static/js/787.182c5a26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7aea967f.css",
-    "static/js/main.9d2cf2c1.js"
+    "static/js/main.7e24dc4f.js"
   ]
 }
