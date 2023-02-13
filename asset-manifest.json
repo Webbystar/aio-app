@@ -1,15 +1,31 @@
 {
   "files": {
-    "main.css": "/equimen/static/css/main.7aea967f.css",
-    "main.js": "/equimen/static/js/main.867c1c28.js",
-    "static/js/787.182c5a26.chunk.js": "/equimen/static/js/787.182c5a26.chunk.js",
-    "index.html": "/equimen/index.html",
-    "main.7aea967f.css.map": "/equimen/static/css/main.7aea967f.css.map",
-    "main.867c1c28.js.map": "/equimen/static/js/main.867c1c28.js.map",
-    "787.182c5a26.chunk.js.map": "/equimen/static/js/787.182c5a26.chunk.js.map"
+    "main.css": "/aio-app/static/css/main.7aea967f.css",
+    "main.js": "/aio-app/static/js/main.3aee8a3c.js",
+    "static/js/787.182c5a26.chunk.js": "/aio-app/static/js/787.182c5a26.chunk.js",
+    "static/media/photo4.jpg": "/aio-app/static/media/photo4.0ebed46e0ba55a0f2203.jpg",
+    "static/media/photo9.png": "/aio-app/static/media/photo9.d8a843249644fba38290.png",
+    "static/media/equemen-preloader.gif": "/aio-app/static/media/equemen-preloader.530c1bd64e95b8da6111.gif",
+    "static/media/photo1.png": "/aio-app/static/media/photo1.879d4fb602d1037fad5b.png",
+    "static/media/photo2.png": "/aio-app/static/media/photo2.a5d036344563d4981e1b.png",
+    "static/media/photo3.jpg": "/aio-app/static/media/photo3.319df4c6c7148a4d1f30.jpg",
+    "static/media/photo5.png": "/aio-app/static/media/photo5.e2b05662bd9886520f84.png",
+    "static/media/photo8.png": "/aio-app/static/media/photo8.ad933373551bdef4195b.png",
+    "static/media/photo6.webp": "/aio-app/static/media/photo6.2cd4884c796afcf3dccb.webp",
+    "static/media/photo7.png": "/aio-app/static/media/photo7.bb8d51d729c21f78805c.png",
+    "static/media/equimen.ico": "/aio-app/static/media/equimen.0060fc634bd476c2224c.ico",
+    "static/media/hamisi.jpg": "/aio-app/static/media/hamisi.9565cbb8d60491b0ea19.jpg",
+    "static/media/kasim.jpg": "/aio-app/static/media/kasim.131018e33296feb24eff.jpg",
+    "static/media/activations.png": "/aio-app/static/media/activations.698ed90b570fb20149ba.png",
+    "static/media/payroll.jfif": "/aio-app/static/media/payroll.111c04593660d0e0e711.jfif",
+    "static/media/cabinet.jfif": "/aio-app/static/media/cabinet.c8787454c6da65e8d6f5.jfif",
+    "index.html": "/aio-app/index.html",
+    "main.7aea967f.css.map": "/aio-app/static/css/main.7aea967f.css.map",
+    "main.3aee8a3c.js.map": "/aio-app/static/js/main.3aee8a3c.js.map",
+    "787.182c5a26.chunk.js.map": "/aio-app/static/js/787.182c5a26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7aea967f.css",
-    "static/js/main.867c1c28.js"
+    "static/js/main.3aee8a3c.js"
   ]
 }
